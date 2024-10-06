@@ -1,3 +1,4 @@
+STRINGS AND MATH USING STRINGS
 alert(`Items (${1+1}):$${((799*2)+(2095*2))/100}
 shipping & handling: $${(499 + 499)/100}
 Total before tax(10%): $${(((799*2)+(2095*2))+(499 + 499))/100}
