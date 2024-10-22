@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+   public static void main(String [] args) {
+      Scanner input = new Scanner(System.in);
+
+      System.out.print("enter the value of principle:");
+      int p = input.nextInt();
+      System.out.print("enter the value of Rate:");
+      int r = input.nextInt();
+      System.out.print("enter the value of Time:");
+      int t = input.nextInt();
+      int simple_intrest = (p*r*t)/100;
+      System.out.println("THE SIMPLE INTREST IS:" + simple_intrest);
+  }
+}
