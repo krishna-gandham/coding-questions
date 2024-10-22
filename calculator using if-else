@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main {
+   public static void main(String [] args) {
+      Scanner input = new Scanner(System.in);
+      System.out.print("enter the value of A:");
+      Double A = input.nextDouble();
+      System.out.print("enter the value of B:");
+      double B = input.nextDouble();
+      System.out.print("enter the operation to perform + - / % *:");
+      char operation = input.next().charAt(0);
+      double result = 0;
+      
+      //  boolean validoperation = true;
+
+       if (operation == '+'){
+         result = A + B;
+         System.out.println("the result is " + result);
+       }
+       else if (operation == '-'){
+         result = A - B;
+         System.out.println("the result is " + result);
+       }
+       else if (operation == '/'){
+         result = A/B;
+         System.out.println("the result is " + result);
+       }
+       else if (operation == '%'){
+         result = A%B;
+         System.out.println("the result is " + result);
+       }
+       else if (operation == '*'){
+         result = A * B;
+         System.out.println("the result is " + result);
+       }
+       else {
+         System.out.println("you entered wrong operation");
+      }
+
+      
+
+   }
+}
